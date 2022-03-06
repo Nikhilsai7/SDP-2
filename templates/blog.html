@@ -24,13 +24,15 @@
       <p class="card-text mb-auto">{{blog.para3}}</p>
 
 
-<iframe width="1000" height="600" src="{{blog.video}}" frameborder="0" allowfullscreen></iframe>
+      <div class="ratio ratio-16x9">
+  <iframe src="{{blog.video}}" title="YouTube video" allowfullscreen></iframe>
+</div>
   </div>
   <div class="card-footer text-muted">
     {{blog.uploaded_time}}
   </div>
 </div>
-<button type="button" class="btn btn-dark"><a href="/techblog">Go Back</a></button>
+<a href="/techblog" class="mt-2 mb-2"><button type="button" class="btn btn-dark">Go Back</button></a>
 </div>
 
 
